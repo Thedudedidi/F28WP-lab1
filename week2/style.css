@@ -141,9 +141,11 @@ main h3 {
     text-align: center;
     font-size: 20px;
     padding: 25px;
-    background-color: #e7e9eb;
+    background-color: #004b55e1;
     margin-top: 10px;
-
+    border-style: solid;
+    border: white;
+    border-width: 1px;
 }
 
 .cta-button {
@@ -161,6 +163,23 @@ main h3 {
 .cta-button:hover {
     background-color: #0eb3a8;
     text-decoration-line: underline;
+}
+
+.cta-container h2{
+    color: white;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration-line: overline;
+    text-decoration-style: wavy;
+}
+
+.cta-container p{
+    color: white;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: lighter;
 }
 
 /* Footer Styles */
